@@ -2,10 +2,11 @@ import React from "react";
 import { Dropdown, Form, Button, Header, Card, Grid } from "semantic-ui-react";
 
 const options = [
-  { key: "1 Star", text: "1 Star", value: "1" },
-  { key: "2 Star", text: "2 Star", value: "2" },
-  { key: "3 Star", text: "3 Star", value: "3" },
-  { key: "4 Star", text: "4 Star", value: "4" }
+  { key: "0 Star", text: "", value: "" },
+  { key: "1 Star", text: "★", value: "1" },
+  { key: "2 Star", text: "★★", value: "2" },
+  { key: "3 Star", text: "★★★", value: "3" },
+  { key: "4 Star", text: "★★★★", value: "4" }
 ];
 
 class Rating extends React.Component {
