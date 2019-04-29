@@ -2,7 +2,7 @@ import React from "react";
 import { Dropdown, Form, Button, Header, Card, Grid } from "semantic-ui-react";
 
 const options = [
-  { key: "0 Star", text: " ", value: "" },
+  { key: "0 Star", text: " ", value: "0" },
   { key: "1 Star", text: "★", value: "1" },
   { key: "2 Star", text: "★★", value: "2" },
   { key: "3 Star", text: "★★★", value: "3" },
