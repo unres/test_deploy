@@ -2,7 +2,6 @@ import React from "react";
 import { Dropdown, Form, Button, Header, Card, Grid } from "semantic-ui-react";
 
 const options = [
-  { key: "0 Star", text: " ", value: "0" },
   { key: "1 Star", text: "★", value: "1" },
   { key: "2 Star", text: "★★", value: "2" },
   { key: "3 Star", text: "★★★", value: "3" },
@@ -42,7 +41,7 @@ class Rating extends React.Component {
               </Header>
               <Dropdown
                 style={{ marginTop: "25%" }}
-                onChange={this.props.handleChange("radius")}
+                onChange={this.props.handleChange("rating_min")}
                 label="Restaurant Rating - Minimum"
                 selection
                 fluid

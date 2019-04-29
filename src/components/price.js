@@ -2,7 +2,6 @@ import React from "react";
 import { Dropdown, Form, Button, Header, Card, Grid } from "semantic-ui-react";
 
 const options = [
-  { key: "0 ", text: " ", value: "0" },
   { key: "1", text: "$", value: "1" },
   { key: "2", text: "$$", value: "2" },
   { key: "3", text: "$$$", value: "3" },
@@ -42,7 +41,7 @@ class Price extends React.Component {
               </Header>
               <Dropdown
                 style={{ marginTop: "25%" }}
-                onChange={this.props.handleChange("radius")}
+                onChange={this.props.handleChange("price_min")}
                 label="Price Range"
                 selection
                 fluid
@@ -53,7 +52,7 @@ class Price extends React.Component {
               />
               <Dropdown
                 style={{ marginTop: "10px" }}
-                onChange={this.props.handleChange("rating_max")}
+                onChange={this.props.handleChange("price_max")}
                 label="Price Range"
                 selection
                 fluid
