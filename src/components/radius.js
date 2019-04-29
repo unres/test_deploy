@@ -54,12 +54,11 @@ class Radius extends React.Component {
                 values={values}
                 placeholder="Radius in Miles"
               />
-              <Button onClick={this.back}>Back</Button>
               <Button
                 onClick={this.saveAndContinue}
                 style={{ marginTop: "10px" }}
               >
-                Save And Continue{" "}
+                Next
               </Button>
             </Form>
           </Card.Content>

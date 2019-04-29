@@ -52,7 +52,7 @@ class Type extends React.Component {
                 onClick={this.saveAndContinue}
                 style={{ marginTop: "10px" }}
               >
-                Save And Continue{" "}
+                Next
               </Button>
             </Form>
           </Card.Content>

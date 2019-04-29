@@ -61,12 +61,12 @@ class Price extends React.Component {
                 values={values}
                 placeholder="Select Maximum"
               />
-              <Button onClick={this.back}>Back</Button>
+
               <Button
                 onClick={this.saveAndContinue}
                 style={{ marginTop: "10px" }}
               >
-                Save And Continue{" "}
+                Next
               </Button>
             </Form>
           </Card.Content>
